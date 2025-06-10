@@ -1,0 +1,83 @@
+.link_header{
+    color: rgb(5, 0, 32);
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #aba2fc;   
+}
+
+li {
+    list-style: none;
+    padding-left: 50px;  
+    padding-right: 50px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.centr_photo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.withphoto {    
+    border-radius: 10px;
+    background-color: #5fcabc;
+    padding: 5px;
+    flex: 1;
+}
+
+.withtext {
+    border-radius: 10px;      
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 10px;
+    flex: 3;
+}
+
+.withphotos {
+    display: flex;
+    flex: auto;    
+    border-radius: 20px;      
+    background-color: #ffffff;
+    border: 2px solid black;   
+    flex: 3;
+}
+
+.my_img { 
+    border-radius: 10px;
+    width: auto;
+    height: 400px;    
+}
+
+.img_paint {   
+    height: 400px;
+    width: auto;   
+    padding: 15px;   
+}
+
+p {
+    text-indent: 3ch;
+}
+
+h3 { 
+    font-size: 20px; 
+    color: #211746;
+    line-height: 1.5; 
+    font-family: "Century Gothic";
+} 
